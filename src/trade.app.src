@@ -1,0 +1,9 @@
+{application, trade,
+ [
+  {description, "TRADE Matching Engine"},
+  {vsn, "0.8.0"},
+  {registered, []},
+  {applications, [kernel,stdlib]},
+  {mod, { trade, []}},
+  {env, []}
+ ]}.
