@@ -1,15 +1,13 @@
-EX: Exchange
-============
+TRADE: Matching Engine
+======================
 
-Components
-----------
+Features
+--------
 
-* TIC — L3 Order Book Integrator
-* FIX — Erlang FIX Engine
-* CA — Certificate Authority
-* VAULT — HashiCorp Vault
-* FIN — Wallet Dashboard
-* TRADE — Order Matching Engine
+* L3 Order Book
+* Order Types: Market, Limit, Profit, Stop Loss
+* <a href="https://github.com/enterprizing/tic">TIC</a> API
+* <a href="https://github.com/enterprizing/fix">FIX</a> engine compatible
 
 Credits
 -------
